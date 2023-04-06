@@ -1,0 +1,26 @@
+*{
+	margin: 10px;
+}
+.container-sm{
+	padding: 10px;
+	background-image: linear-gradient(to bottom,lightskyblue,dimgray);
+}
+#search-box{
+	background-color: black;
+	color: white;
+}
+input::focus{
+	outline: none;
+}
+#card{
+	box-sizing: border-box;
+	box-shadow: inset 10px 15px 50px rgba(0, 0, 0, 0.3);
+	display: flex;
+}
+li{
+	list-style-type: none;
+	text-align: center;
+}
+li h5{
+	font-weight: bold;
+}
