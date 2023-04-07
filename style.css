@@ -1,6 +1,10 @@
 *{
 	margin: 10px;
 }
+body{
+    background-color: aliceblue;
+	z-index: 1;
+}
 .container-sm{
 	padding: 10px;
 	background-image: linear-gradient(to bottom,lightskyblue,dimgray);
@@ -9,6 +13,9 @@
 	background-color: black;
 	color: white;
 }
+#city{
+	padding: 8px;
+}
 input::focus{
 	outline: none;
 }
@@ -16,6 +23,7 @@ input::focus{
 	box-sizing: border-box;
 	box-shadow: inset 10px 15px 50px rgba(0, 0, 0, 0.3);
 	display: flex;
+	background-color: lightyellow;
 }
 li{
 	list-style-type: none;
